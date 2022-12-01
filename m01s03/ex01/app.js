@@ -3,6 +3,7 @@ var object = {
   surname: 'Olaru',
   age: 27,
   petOwner: false,
+  carOwner: false,
 };
 
 console.warn(
@@ -29,3 +30,13 @@ console.warn(`
 Afiseaza anul in care te ai nascut etc etc
 `);
 console.log((2022 - object.age).toString());
+
+console.warn(`Maria Olaru are 27 ani.`);
+
+console.log(
+  object.name + ' ' + object.surname + ' are ' + object.age + ' ani' + '.',
+);
+
+console.warn(`Maria s-a nascut in 1995.`);
+
+console.log(object.name + ' s-a nascut in ' + (2022 - object.age) + '.');
